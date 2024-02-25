@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    background-color: grey;
+}
+p {
+    margin: 5px;
+}
+
+
+.flexbox-container {
+    height: 100%;
+    display: flex;
+    margin-top: 25vh;
+    background-color: yellow;
+    justify-content: center;
+    align-items:start;
+}
+
+
+.flexbox {
+    border: 1px solid black;
+    width: 100px;
+    margin: 10px;
+    background-color: grey;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    flex-grow:1;
+    flex-basis: 1;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    flex-grow: 2;
+    flex-basis: 1;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    flex-grow: 3;
+    flex-basis: 1;
+}
